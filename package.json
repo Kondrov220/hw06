@@ -5,7 +5,7 @@
   "homepage": "https://kondrov220.github.io/hw06/",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /g/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
